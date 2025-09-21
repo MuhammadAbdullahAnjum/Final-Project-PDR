@@ -1,24 +1,23 @@
 import { AuthProvider } from "@/contexts/AuthContext";
 import { ProgressProvider } from "@/contexts/useProgress";
 import { useColorScheme } from "@/hooks/useColorScheme";
+import { setupPdfAssets } from "@/services/assetManager";
+import NotificationService, { NotificationData } from "@/services/notificationService";
 import {
   DarkTheme,
   DefaultTheme,
   ThemeProvider,
 } from "@react-navigation/native";
 import { useFonts } from "expo-font";
+import * as Notifications from 'expo-notifications'; // Import expo-notifications
 import { SplashScreen, Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import { useEffect } from "react";
-import { I18nManager, Alert, AppState, Platform, Linking } from "react-native";
 import { useTranslation } from "react-i18next";
+import { Alert, AppState, I18nManager, Linking, Platform } from "react-native";
 import "react-native-reanimated";
-import * as Notifications from 'expo-notifications'; // Import expo-notifications
 import "../firebase/config";
 import "../services/i18n";
-import NotificationService, { NotificationData } from "@/services/notificationService";
-import GuidelineDetailScreen from "./GuidelineDetailScreen";
-import { setupPdfAssets } from "@/services/assetManager";
 
 SplashScreen.preventAutoHideAsync();
 I18nManager.allowRTL(true);
@@ -31,7 +30,6 @@ export default function RootLayout() {
   });
 
   useEffect(() => {
-    // --- PERMISSION REQUEST LOGIC ---
     // This function checks for and requests notification permissions.
     const requestPermissions = async () => {
       const { status: existingStatus } = await Notifications.getPermissionsAsync();
