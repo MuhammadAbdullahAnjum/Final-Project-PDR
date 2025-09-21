@@ -1,0 +1,1001 @@
+{
+  "notifications": {
+    "headerTitle": "Alerts & Notifications",
+    "filterAll": "All",
+    "filterUnread": "Unread",
+    "filterCritical": "Critical",
+    "markAllRead": "Mark all as read",
+    "emptyState": {
+      "noCriticalTitle": "No Critical Alerts",
+      "noNotificationsTitle": "No Notifications",
+      "allCaughtUp": "All caught up!",
+      "noCriticalMessage": "No critical alerts at this time. Stay safe!",
+      "defaultMessage": "Location-based alerts and notifications will appear here"
+    },
+    "time": {
+      "now": "Just now",
+      "minutesAgo": "{{count}}m ago",
+      "hoursAgo": "{{count}}h ago",
+      "daysAgo": "{{count}}d ago"
+    },
+    "priority": {
+      "critical": "CRITICAL",
+      "high": "HIGH",
+      "medium": "MED",
+      "low": "LOW"
+    }
+  },
+  "auth": {
+    "appTitle": "Pakistan Disaster Ready",
+    "subtitle": "Stay prepared, stay safe",
+    "welcomeBack": "Welcome Back!",
+    "createAccount": "Create Account",
+    "signInToContinue": "Sign in to continue",
+    "joinCommunity": "Join our community today",
+    "fullName": "Full Name",
+    "emailAddress": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "signIn": "Sign In",
+    "orContinueWith": "or continue with",
+    "continueWithGoogle": "Continue with Google",
+    "googleSignInInfo": "Google Sign-in not available on Expo",
+    "dontHaveAccount": "Don't have an account? ",
+    "alreadyHaveAccount": "Already have an account? ",
+    "signUp": "Sign Up",
+    "alerts": {
+      "missingInfoTitle": "Missing Information",
+      "missingInfoMessage": "Please fill in all required fields",
+      "invalidEmailTitle": "Invalid Email",
+      "invalidEmailMessage": "Please enter a valid email address",
+      "missingNameMessage": "Please enter your full name",
+      "passwordMismatchTitle": "Password Mismatch",
+      "passwordMismatchMessage": "Passwords do not match",
+      "weakPasswordTitle": "Weak Password",
+      "weakPasswordMessage": "Password must be at least 6 characters long",
+      "successTitle": "Success",
+      "welcomeBackMessage": "Welcome back!",
+      "accountCreatedMessage": "Account created successfully!",
+      "authErrorTitle": "Authentication Error",
+      "authErrorMessage": "Please try again",
+      "unexpectedErrorTitle": "Error",
+      "unexpectedErrorMessage": "Something went wrong. Please try again.",
+      "googleSignInSuccess": "Welcome! Signed in with Google successfully",
+      "googleSignInFailedTitle": "Google Sign In Failed"
+    }
+  },
+  "settings": "Settings",
+  "pushNotifications": "Push Notifications",
+  "receiveAlerts": "Receive alerts and updates",
+  "emergencyAlerts": "Emergency Alerts",
+  "criticalDisasterWarnings": "Critical disaster warnings",
+  "locationAndPrivacy": "Location & Privacy",
+  "locationServices": "Location Services",
+  "enableLocationBasedAlerts": "Enable location-based alerts",
+  "dataAndStorage": "Data & Storage",
+  "clearStorage": "Clear Storage",
+  "freeUpStorage": "Free up storage space",
+  "appearance": "Appearance",
+  "darkMode": "Dark Mode",
+  "useDarkTheme": "Use dark theme",
+  "language": "Language",
+  "about": "About",
+  "appVersion": "App Version",
+  "privacyPolicy": "Privacy Policy",
+  "dangerZone": "Danger Zone",
+  "resetSettings": "Reset Settings",
+  "resetSettingsDesc": "Reset all settings to default",
+  "selectLanguage": "Select Language",
+  "english": "English",
+  "urdu": "Urdu",
+  "spanish": "Spanish",
+  "profile": "Profile",
+  "enterPlaceholder": "Enter {{title}}",
+  "notProvided": "Not provided",
+  "success": "Success",
+  "profileUpdated": "Profile updated successfully",
+  "error": "Error",
+  "profileUpdateFailed": "Failed to update profile",
+  "profileUpdateError": "An error occurred while updating profile",
+  "permissionRequired": "Permission Required",
+  "cameraPermission": "Permission to access camera roll is required!",
+  "imagePickFailed": "Failed to pick image",
+  "anonymousUser": "Anonymous User",
+  "guestAccount": "Guest Account",
+  "verifiedUser": "Verified User",
+  "personalInfo": "Personal Information",
+  "displayName": "Display Name",
+  "email": "Email",
+  "phone": "Phone",
+  "location": "Location",
+  "emergencyInfo": "Emergency Information",
+  "emergencyContact": "Emergency Contact",
+  "accountStats": "Account Statistics",
+  "alertsReceived": "Alerts Received",
+  "areasMonitored": "Areas Monitored",
+  "downloadMyData": "Download My Data",
+  "deleteAccount": "Delete Account",
+  "deleteAccountConfirmation": {
+    "title": "Delete Account?",
+    "message": "This is irreversible. All your data, including progress and badges, will be permanently lost. Are you sure you want to proceed?"
+  },
+  "delete": "Delete",
+  "accountDeletedSuccess": "Your account has been successfully deleted.",
+  "accountDeleteFailed": "Failed to delete account. Please try again.",
+  "accountDeleteError": "An unexpected error occurred while trying to delete your account.",
+  "warning": "Warning",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "ok": "OK",
+  "reset": "Reset",
+  "disable": "Disable",
+  "openSettings": "Open Settings",
+  "openBrowser": "Open Browser",
+  "notificationPermissionRequired": "Please enable notifications in system settings to receive alerts",
+  "locationPermissionRequired": "Please enable location access in system settings for location-based alerts",
+  "notificationsEnabled": "Push notifications have been enabled successfully",
+  "notificationsDisabled": "Push notifications have been disabled",
+  "notificationError": "Failed to configure notifications. Please try again.",
+  "locationServicesEnabled": "Location services have been enabled successfully",
+  "locationServicesDisabled": "Location services have been disabled",
+  "locationError": "Failed to configure location services. Please try again.",
+  "emergencyAlertsEnabled": "Emergency alerts have been enabled successfully",
+  "emergencyAlertsDisabled": "Emergency alerts have been disabled",
+  "emergencyAlertsDisabledWarning": "Disabling emergency alerts may put you at risk during natural disasters and critical situations. Are you sure you want to continue?",
+  "darkModeEnabled": "Dark mode has been enabled",
+  "lightModeEnabled": "Light mode has been enabled",
+  "themeChangeError": "Failed to change theme. Please try again.",
+  "storageCleared": "App storage has been cleared successfully",
+  "storageClearError": "Failed to clear storage. Please try again.",
+  "clearStorageConfirm": "This will delete all cached data and free up storage space. This action cannot be undone. Are you sure?",
+
+  "settingsReset": "All settings have been reset to their default values",
+  "resetError": "Failed to reset settings. Please try again.",
+  "resetSettingsConfirm": "This will reset all your preferences to default settings. This action cannot be undone. Are you sure?",
+
+  "privacyPolicyMessage": "This will open our privacy policy in your default browser. Do you want to continue?",
+  "appInfo": "App Information",
+  "buildNumber": "Build Number",
+  "lastUpdated": "Last Updated",
+  "sidebar": {
+    "signOutTitle": "Sign Out",
+    "signOutMessage": "Are you sure you want to sign out?",
+    "cancel": "Cancel",
+    "errorTitle": "Error",
+    "signOutError": "Failed to sign out",
+    "guestUser": "Guest User",
+    "anonymousUser": "Anonymous User",
+    "notSignedIn": "Not signed in",
+    "guestAccount": "Guest Account",
+    "noEmail": "No email",
+    "signIn": "Sign In",
+    "signUp": "Sign Up",
+    "emergencyContacts": "Emergency Contacts",
+    "profile": "Profile",
+    "settings": "Settings",
+    "helpSupport": "Help & Support",
+    "footerText": "© Pakistan Disaster Ready v1.0"
+  },
+  "statsScreen": {
+    "header": "Stats Dashboard",
+    "overallScore": {
+      "title": "Overall Preparedness Score",
+      "subtitle": "Based on tasks completed, quiz performance, and badges earned"
+    },
+    "progressBreakdown": {
+      "title": "Progress Breakdown",
+      "tasks": "Tasks",
+      "quizzes": "Quizzes",
+      "badges": "Badges"
+    },
+    "achievements": {
+      "title": "Recent Achievements",
+      "noBadges": "Complete tasks and quizzes to earn badges!"
+    },
+    "statCards": {
+      "tasksCompleted": "Tasks Completed",
+      "quizAverage": "Quiz Average",
+      "badgesEarned": "Badges Earned",
+      "activePlans": "Active Plans",
+      "notAvailable": "N/A",
+      "taken": "{{count}} taken"
+    },
+    "topicPerformance": {
+      "title": "Quiz Performance by Topic",
+      "notAttempted": "Not attempted",
+      "stats": "{{count}} taken • {{average}}% avg"
+    },
+    "topicNames": {
+      "disasterPrep": "Disaster Prep",
+      "firstAid": "First Aid",
+      "fireSafety": "Fire Safety",
+      "severeWeather": "Weather",
+      "homeSecurity": "Security",
+      "travelSafety": "Travel"
+    },
+    "categoryBreakdown": {
+      "title": "Task Category Breakdown"
+    },
+    "quizInsights": {
+      "title": "Quiz Insights",
+      "topicsExplored": "Topics Explored",
+      "mostPracticed": "Most Practiced Topic",
+      "perfectScores": "Perfect Scores"
+    },
+    "auth": {
+      "title": "Sign In Required",
+      "subtitle": "Sign in to view your personalized stats and track your progress",
+      "button": "Sign In"
+    }
+  },
+  "badgesScreen": {
+    "title": "My Badges",
+    "yourAchievements": "Your Achievements",
+    "achievementsSummary": "Total: {{totalEarned}} of {{totalBadges}} Badges Earned",
+    "earnedDate": "Earned {{date}}",
+    "earnedCount": "{{earnedCount}} of {{totalCount}} earned",
+    "quickStats": "Quick Stats",
+    "statsTasks": "Tasks",
+    "statsQuizzes": "Quizzes",
+    "statsPerfect": "Perfect",
+    "statsBadges": "Badges",
+    "signInRequired": "Sign In Required",
+    "signInSubtitle": "Sign in to view your badges and track your progress",
+    "signInButton": "Sign In",
+    "progressMilestones": "Progress Milestones",
+    "quizAchievements": "Quiz Achievements",
+    "consistencyStreaks": "Consistency Streaks",
+    "specialAchievements": "Special Achievements",
+    "emptyState": "Complete tasks and take quizzes to start earning badges!",
+    "defaultUserInitial": "G"
+  },
+  "progressScreen": {
+    "title": "Progress Overview",
+    "defaultUserInitial": "G",
+    "overallPreparedness": "Overall Preparedness",
+    "preparednessMessage": {
+      "high": "Excellent work! You're well on your way to being prepared.",
+      "medium": "Great progress! Keep building your resilience.",
+      "low": "Every step counts. Let's get you prepared!"
+    },
+    "categoryProgress": "Category Progress",
+    "categorySummary": "{{completed}} of {{total}} items completed",
+    "actionButton": {
+      "fullyPrepared": "You are Fully Prepared!",
+      "advancedQuiz": "Take Advanced First Aid Quiz",
+      "continueLearning": "Continue First Aid Learning",
+      "startBasics": "Start First Aid Basics"
+    },
+    "actionSubtitle": {
+      "complete": "Congratulations on achieving 100% readiness! 🎉",
+      "incomplete": "Take the next step to improve your score."
+    }
+  },
+  "title": "Preparation Checklist",
+  "overallProgress": "Overall Progress",
+  "progressMessageHigh": "You're nearly disaster ready! Great work!",
+  "progressMessageMedium": "You're on track to becoming disaster ready!",
+  "progressMessageLow": "Start building your emergency preparedness!",
+  "categoryEssentials": "Emergency Essentials",
+  "categoryEvacuation": "Evacuation & Planning",
+  "categoryCommunication": "Communication Strategy",
+  "categoryFirstAid": "First Aid Skills",
+  "actionButtonFullyPrepared": "Fully Prepared!",
+  "actionButtonKeepBuilding": "Keep Building Resilience!",
+  "actionButtonSubtitle": "{{completedItems}} of {{totalItems}} items completed. Every step counts!",
+  "categories": {
+    "essentials": {
+      "name": "Emergency Supplies",
+      "description": "Essential items for survival"
+    },
+    "evacuation": {
+      "name": "Evacuation Plan",
+      "description": "Plans and preparations for evacuation"
+    },
+    "communication": {
+      "name": "Communication",
+      "description": "Communication tools and plans"
+    },
+    "firstaid": {
+      "name": "First Aid",
+      "description": "Medical knowledge and supplies"
+    }
+  },
+  "checklist": {
+    "water": {
+      "title": "Secure Drinking Water",
+      "description": "Store at least 1 gallon per person per day for 3 days."
+    },
+    "food": {
+      "title": "Gather Non-Perishable Food",
+      "description": "Include non-cook items and a manual can opener."
+    },
+    "kit": {
+      "title": "Assemble First Aid Kit",
+      "description": "Include bandages, antiseptic, wipes, and essential medications."
+    },
+    "flashlight": {
+      "title": "Pack Flashlight & Batteries",
+      "description": "Ensure fresh batteries and a spare set."
+    },
+    "whistle": {
+      "title": "Carry a Whistle",
+      "description": "For signaling help in an emergency."
+    },
+    "cash": {
+      "title": "Store Emergency Cash",
+      "description": "Keep small bills and coins for emergencies."
+    },
+    "meetingPoint": {
+      "title": "Establish Family Meeting Point",
+      "description": "Designate primary and secondary locations."
+    },
+    "goBags": {
+      "title": "Prepare Go-Bags",
+      "description": "Personal kits with essentials for 3 days."
+    },
+    "routes": {
+      "title": "Plan Evacuation Routes",
+      "description": "Identify multiple routes from home and work."
+    },
+    "drills": {
+      "title": "Practice Evacuation Drills",
+      "description": "Run through your plan with family members."
+    },
+    "contacts": {
+      "title": "Compile Emergency Contacts",
+      "description": "Include family, doctors, and out-of-state contacts."
+    },
+    "radio": {
+      "title": "Obtain NOAA Weather Radio",
+      "description": "With tone alert and extra batteries."
+    },
+    "chargers": {
+      "title": "Secure Portable Chargers",
+      "description": "For phones and other essential electronics."
+    },
+    "groupChat": {
+      "title": "Set Up Group Communication",
+      "description": "Create family group chat or communication plan."
+    },
+    "cpr": {
+      "title": "Learn Basic CPR",
+      "description": "Complete a CPR certification course."
+    },
+    "woundCare": {
+      "title": "Practice Wound Care",
+      "description": "Learn to clean and dress wounds properly."
+    },
+    "response": {
+      "title": "Study Emergency Response",
+      "description": "Know how to respond to common emergencies."
+    },
+    "medicalSupplies": {
+      "title": "Stock Medical Supplies",
+      "description": "Maintain adequate first aid supplies."
+    }
+  },
+  "badges": {
+    "firstSteps": {
+      "name": "First Steps",
+      "description": "Complete your first checklist item"
+    },
+    "quarterChampion": {
+      "name": "Quarter Champion",
+      "description": "Complete 25% of all checklist items"
+    },
+    "halfwayHero": {
+      "name": "Halfway Hero",
+      "description": "Complete 50% of all checklist items"
+    },
+    "preparednessPro": {
+      "name": "Preparedness Pro",
+      "description": "Complete 75% of all checklist items"
+    },
+    "fullyPrepared": {
+      "name": "Fully Prepared",
+      "description": "Complete all checklist items"
+    },
+    "quizNovice": {
+      "name": "Quiz Novice",
+      "description": "Take your first quiz"
+    },
+    "perfectScore": {
+      "name": "Perfect Score",
+      "description": "Get 100% on any quiz"
+    },
+    "quizMaster": {
+      "name": "Quiz Master",
+      "description": "Take 10 quizzes"
+    },
+    "perfectionist": {
+      "name": "Perfectionist",
+      "description": "Get 5 perfect scores"
+    },
+    "essentialsExpert": {
+      "name": "Essentials Expert",
+      "description": "Complete all Essential Supplies tasks"
+    },
+    "evacuationExpert": {
+      "name": "Evacuation Expert",
+      "description": "Complete all Evacuation Plan tasks"
+    },
+    "communicationExpert": {
+      "name": "Communication Expert",
+      "description": "Complete all Communication tasks"
+    },
+    "firstAidExpert": {
+      "name": "First Aid Expert",
+      "description": "Complete all First Aid tasks"
+    }
+  },
+  "ui": {
+    "mainTitle": "Safety Quizzes",
+    "chooseTopicTitle": "Choose a Topic",
+    "chooseTopicSubtitle": "Test your knowledge across different safety areas",
+    "freeTrialText": "🎯 Try your first quiz without logging in! Sign up to unlock all topics.",
+    "questionCount": "{{count}} Questions",
+    "bestScore": "Best: {{score}}%",
+    "unlockTitle": "Unlock All Quizzes",
+    "unlockDescription": "Get access to all safety topics, track your progress, and earn achievements!",
+    "signupButton": "Sign Up to Continue",
+    "learnHeader": "Learn {{topicTitle}}",
+    "quizHeader": "{{topicTitle}} Quiz",
+    "learningMode": "Learning Mode",
+    "questionProgress": "Question {{current}}/{{total}}",
+    "nextButton": "Next",
+    "submitButton": "Submit Answer",
+    "resultLearningComplete": "Learning Complete!",
+    "resultGreatJob": "Great Job!",
+    "resultKeepLearning": "Keep Learning!",
+    "resultScoreText": "You scored {{score}} out of {{total}}",
+    "resultPercentageText": "{{percentage}}% Correct",
+    "resultLearningCompleteDescription": "You've reviewed all the correct answers for this topic.",
+    "retakeButton": "Retake Quiz",
+    "newTopicButton": "Choose New Topic",
+    "learnTopicButton": "Learn Topic"
+  },
+  "topics": {
+    "disaster-prep": {
+      "title": "Disaster Preparedness",
+      "description": "Essential knowledge for emergency situations",
+      "questions": {
+        "q1": {
+          "question": "What is the primary purpose of a \"Go-Bag\" or \"Bug-Out Bag\" in disaster preparedness?",
+          "options": [
+            "To store non-perishable food for long-term survival.",
+            "To provide essential supplies for the first 72 hours during an evacuation.",
+            "To keep important documents safe during an emergency.",
+            "To carry tools for repairing damaged infrastructure."
+          ]
+        },
+        "q2": {
+          "question": "During an earthquake, what is the safest action to take?",
+          "options": [
+            "Run outside immediately",
+            "Stand in a doorway",
+            "Drop, Cover, and Hold On",
+            "Get under a bed"
+          ]
+        },
+        "q3": {
+          "question": "How much water should you store per person per day for emergency preparedness?",
+          "options": [
+            "1/2 gallon (2 liters)",
+            "1 gallon (4 liters)",
+            "2 gallons (8 liters)",
+            "3 gallons (12 liters)"
+          ]
+        },
+        "q4": {
+          "question": "What should you do if caught in a flash flood while driving?",
+          "options": [
+            "Drive through the water quickly",
+            "Turn around and find an alternate route",
+            "Stay in the car and wait",
+            "Drive slowly through the water"
+          ]
+        },
+        "q5": {
+          "question": "In case of a fire emergency, what is the most important rule?",
+          "options": [
+            "Stay low and crawl under smoke",
+            "Use elevators to evacuate quickly",
+            "Open windows for fresh air",
+            "Gather personal belongings first"
+          ]
+        }
+      }
+    },
+    "first-aid": {
+      "title": "First Aid Basics",
+      "description": "Life-saving first aid techniques and procedures",
+      "questions": {
+        "q1": {
+          "question": "What is the correct ratio of chest compressions to rescue breaths in adult CPR?",
+          "options": ["15:2", "30:2", "5:1", "10:2"]
+        },
+        "q2": {
+          "question": "How should you treat a severe bleeding wound?",
+          "options": [
+            "Apply direct pressure and elevate if possible",
+            "Apply a tourniquet immediately",
+            "Clean the wound with alcohol first",
+            "Remove any embedded objects"
+          ]
+        },
+        "q3": {
+          "question": "What is the first step in treating someone who is choking but still conscious?",
+          "options": [
+            "Perform abdominal thrusts immediately",
+            "Give back blows between the shoulder blades",
+            "Encourage them to cough forcefully",
+            "Call emergency services first"
+          ]
+        },
+        "q4": {
+          "question": "How should you treat a burn from hot liquid?",
+          "options": [
+            "Apply ice directly to the burn",
+            "Use butter or oil on the burn",
+            "Cool with cold running water for 10-20 minutes",
+            "Pop any blisters that form"
+          ]
+        },
+        "q5": {
+          "question": "What should you do if someone is having a seizure?",
+          "options": [
+            "Hold them down to prevent movement",
+            "Put something in their mouth to prevent tongue biting",
+            "Time the seizure and keep them safe from injury",
+            "Give them water to prevent dehydration"
+          ]
+        }
+      }
+    },
+    "fire-safety": {
+      "title": "Fire Safety",
+      "description": "Prevention and response to fire emergencies",
+      "questions": {
+        "q1": {
+          "question": "How often should you test smoke alarm batteries?",
+          "options": [
+            "Once a year",
+            "Every 6 months",
+            "Monthly",
+            "Only when they beep"
+          ]
+        },
+        "q2": {
+          "question": "What type of fire extinguisher should be used on electrical fires?",
+          "options": [
+            "Water-based extinguisher",
+            "Foam extinguisher",
+            "CO2 or dry powder extinguisher",
+            "Any type will work"
+          ]
+        },
+        "q3": {
+          "question": "If your clothes catch fire, what should you do?",
+          "options": [
+            "Run to get help",
+            "Stop, Drop, and Roll",
+            "Use water to put it out",
+            "Remove the burning clothes quickly"
+          ]
+        },
+        "q4": {
+          "question": "What is the recommended evacuation time for a typical house fire?",
+          "options": ["10 minutes", "5 minutes", "2-3 minutes", "30 seconds"]
+        },
+        "q5": {
+          "question": "Before opening a door during a fire, you should:",
+          "options": [
+            "Open it quickly to check for fire",
+            "Feel the door handle and door for heat",
+            "Call out to see if anyone responds",
+            "Look for smoke under the door only"
+          ]
+        }
+      }
+    },
+    "severe-weather": {
+      "title": "Severe Weather",
+      "description": "Staying safe during extreme weather conditions",
+      "questions": {
+        "q1": {
+          "question": "During a tornado warning, where is the safest place to shelter?",
+          "options": [
+            "Upper floor of a building",
+            "Near windows to watch for the tornado",
+            "Lowest floor, interior room, away from windows",
+            "In a vehicle driving away from the tornado"
+          ]
+        },
+        "q2": {
+          "question": "What wind speed defines a hurricane as Category 1?",
+          "options": ["39-73 mph", "74-95 mph", "96-110 mph", "111-129 mph"]
+        },
+        "q3": {
+          "question": "If caught outside during a lightning storm, you should:",
+          "options": [
+            "Lie flat on the ground",
+            "Stand under a tall tree",
+            "Crouch low with feet together, avoiding metal objects",
+            "Keep moving to avoid being a target"
+          ]
+        },
+        "q4": {
+          "question": "What is the most dangerous aspect of a hurricane?",
+          "options": [
+            "High winds",
+            "Storm surge flooding",
+            "Heavy rainfall",
+            "Lightning"
+          ]
+        },
+        "q5": {
+          "question": "How much advance warning do tornado watches typically provide?",
+          "options": ["15-30 minutes", "1-2 hours", "4-8 hours", "12-24 hours"]
+        }
+      }
+    },
+    "home-security": {
+      "title": "Home Security",
+      "description": "Protecting your home and family from threats",
+      "questions": {
+        "q1": {
+          "question": "What is the most effective way to secure sliding glass doors?",
+          "options": [
+            "Install a security bar in the track",
+            "Use only the built-in lock",
+            "Place a chair against the door",
+            "Install curtains for privacy"
+          ]
+        },
+        "q2": {
+          "question": "When should you change your locks?",
+          "options": [
+            "Only if they break",
+            "After moving to a new home",
+            "Every 5 years",
+            "Never, if they work fine"
+          ]
+        },
+        "q3": {
+          "question": "What should you do if you think someone is trying to break into your home?",
+          "options": [
+            "Investigate the noise yourself",
+            "Call emergency services and stay in a secure room",
+            "Turn on all the lights",
+            "Go outside to confront them"
+          ]
+        },
+        "q4": {
+          "question": "How can you make your home appear occupied while away?",
+          "options": [
+            "Leave all lights on continuously",
+            "Use timers for lights and consider a house sitter",
+            "Park a car in the driveway",
+            "Leave the TV on loudly"
+          ]
+        },
+        "q5": {
+          "question": "What information should you never give to strangers at your door?",
+          "options": [
+            "Your name",
+            "The time of day",
+            "Whether you're home alone or family schedule",
+            "The weather"
+          ]
+        }
+      }
+    },
+    "travel-safety": {
+      "title": "Travel Safety",
+      "description": "Staying safe while traveling and in unfamiliar places",
+      "questions": {
+        "q1": {
+          "question": "What should you do before traveling to a new country?",
+          "options": [
+            "Pack as much as possible",
+            "Research local laws, customs, and safety conditions",
+            "Exchange all your money immediately",
+            "Book the cheapest accommodation available"
+          ]
+        },
+        "q2": {
+          "question": "How should you carry important documents while traveling?",
+          "options": [
+            "Keep originals with you at all times",
+            "Leave them in your hotel room",
+            "Make copies and store originals separately",
+            "Email them to yourself only"
+          ]
+        },
+        "q3": {
+          "question": "If you feel you're being followed while traveling, you should:",
+          "options": [
+            "Confront the person directly",
+            "Go to a crowded, well-lit public place",
+            "Return to your hotel immediately",
+            "Take photos of the person"
+          ]
+        },
+        "q4": {
+          "question": "What's the safest way to use ATMs while traveling?",
+          "options": [
+            "Use any ATM for convenience",
+            "Use ATMs inside banks or hotels when possible",
+            "Always use street-side ATMs",
+            "Carry large amounts of cash instead"
+          ]
+        },
+        "q5": {
+          "question": "When using public Wi-Fi while traveling, you should:",
+          "options": [
+            "Access all your accounts normally",
+            "Avoid sensitive transactions and use a VPN if possible",
+            "Only check social media",
+            "Share the connection with other travelers"
+          ]
+        }
+      }
+    }
+  },
+  "home": {
+    "ndmaAlertsTitle": "Pakistan Official Advisories",
+    "weatherAlerts": {
+      "rainWarningTitle": "Rain Warning",
+      "rainWarningMessage": "Chance of rain ({{precipitation}}%) expected in {{city}} within 24 hours. Consider taking an umbrella.",
+      "hotWeatherTitle": "Hot Weather Alert",
+      "hotWeatherMessage": "High temperatures up to {{temp}}°C expected in {{city}}. Stay hydrated and avoid prolonged sun exposure.",
+      "coldWeatherTitle": "Cold Weather Notice",
+      "coldWeatherMessage": "Cool temperatures down to {{temp}}°C expected in {{city}}. Dress warmly."
+    },
+    "headerTitle": "Disaster Ready",
+    "searchPlaceholder": "Search for any city...",
+    "searchingText": "Searching...",
+    "noCitiesFound": "No cities found for \"{{query}}\"",
+    "demoBannerTitle": "🚀 Demo Mode: Tap the flask icon to test real-time notifications",
+    "demoBannerSubtitle": "Location services active • Monitoring for disaster alerts",
+    "weatherTitle": "Weather Forecast",
+    "weatherFetchError": "Could not fetch weather data.",
+    "today": "Today",
+    "high": "High: {{temp}}°C",
+    "low": "Low: {{temp}}°C",
+    "currentLocation": "Current Location",
+    "alertsTitle": "Critical Alerts",
+    "magnitude": "Mag",
+    "depth": "Depth: {{depth}} km",
+    "seismicCategory": "Seismic Activity",
+    "noSeismicActivity": "No significant seismic activity in the region.",
+    "floodCategory": "Flood Warnings",
+    "noFloodWarnings": "No active flood warnings reported in Pakistan.",
+    "internationalAlerts": "International Alerts",
+    "recent": "Recent",
+    "resourcesTitle": "Local Resources",
+    "timeAgo": {
+      "now": "Just now",
+      "minute_one": "1 minute ago",
+      "minute_other": "{{count}} minutes ago",
+      "hour_one": "1 hour ago",
+      "hour_other": "{{count}} hours ago",
+      "day_one": "1 day ago",
+      "day_other": "{{count}} days ago"
+    }
+  },
+  "alerts": {
+    "criticalTitle": "🚨 CRITICAL ALERT",
+    "dismiss": "Dismiss",
+    "viewDetails": "View Details",
+    "initErrorTitle": "Initialization Error",
+    "initErrorMessage": "Some features may not work properly. Please restart the app.",
+    "ok": "OK",
+    "demoTitle": "🚀 Demo Notifications",
+    "demoMessage": "Choose the type of demo notification to send:",
+    "cancel": "Cancel",
+    "immediateTest": "Immediate Test",
+    "delayedTest": "30 Second Delay",
+    "weatherTest": "Weather Alert",
+    "emergencyTest": "Emergency Alert",
+    "successTitle": "✅ Success",
+    "successMessage": "Test notifications sent immediately!",
+    "scheduledTitle": "⏰ Scheduled",
+    "scheduledMessage": "A critical evacuation alert will arrive in 30 seconds.\n\nTry closing the app to test background notifications!",
+    "weatherSentTitle": "⛈️ Sent",
+    "weatherSentMessage": "Severe weather alert sent!",
+    "emergencySentTitle": "🚨 Sent",
+    "emergencySentMessage": "Emergency alert sent!",
+    "visitWebsitePrompt": {
+      "title": "{{resourceTitle}}",
+      "message": "{{resourceDescription}}\n\nWould you like to visit {{resourceSource}}?",
+      "action": "Visit Website"
+    }
+  },
+  "weatherConditions": {
+    "0": "Clear",
+    "1": "Mainly Clear",
+    "2": "Partly Cloudy",
+    "3": "Overcast",
+    "45": "Fog",
+    "48": "Depositing Rime Fog",
+    "51": "Light Drizzle",
+    "53": "Drizzle",
+    "55": "Dense Drizzle",
+    "56": "Light Freezing Drizzle",
+    "57": "Dense Freezing Drizzle",
+    "61": "Slight Rain",
+    "63": "Rain",
+    "65": "Heavy Rain",
+    "66": "Light Freezing Rain",
+    "67": "Heavy Freezing Rain",
+    "71": "Slight Snowfall",
+    "73": "Snowfall",
+    "75": "Heavy Snowfall",
+    "77": "Snow Grains",
+    "80": "Slight Rain Showers",
+    "81": "Rain Showers",
+    "82": "Violent Rain Showers",
+    "85": "Slight Snow Showers",
+    "86": "Heavy Snow Showers",
+    "95": "Thunderstorm",
+    "96": "Thunderstorm with Hail",
+    "99": "Thunderstorm with Heavy Hail"
+  },
+  "resources": {
+    "ndma": {
+      "title": "NDMA Pakistan",
+      "description": "National Disaster Management Authority updates",
+      "source": "NDMA"
+    },
+    "pmd": {
+      "title": "PMD Weather",
+      "description": "Pakistan Meteorological Department forecasts",
+      "source": "PMD"
+    },
+    "pdma": {
+      "title": "PDMA Emergency",
+      "description": "Provincial Disaster Management response",
+      "source": "PDMA"
+    },
+    "ffd": {
+      "title": "PDMA FFD",
+      "description": "Provincial Disaster Management and Flood Forecasting Division",
+      "source": "FFD"
+    },
+    "rescue": {
+      "title": "Rescue 1122",
+      "description": "Emergency rescue services - Call 1122",
+      "source": "Rescue Service"
+    }
+  },
+  "cityLang": "en",
+  "screenTitle": "Emergency Contacts",
+  "subtitle": "Pakistan Emergency & Disaster Helplines",
+  "searchPlaceholder": "Search...",
+  "noContactsFound": "No contacts found.",
+  "callAlertTitle": "Call {name}?",
+  "callAlertMessage": "Number: {number}",
+  "cancelButton": "Cancel",
+  "callButton": "Call Now",
+  "badge247": "24/7",
+  "emergencyCategories": {
+    "all": "All",
+    "emergency": "Emergency",
+    "disaster": "Disaster",
+    "medical": "Medical",
+    "police": "Police",
+    "fire": "Fire",
+    "utility": "Utility",
+    "government": "Government"
+  },
+  "contacts": {
+    "1": {
+      "name": "Rescue 1122",
+      "description": "National Emergency Service - Fire, Ambulance, Rescue"
+    },
+    "2": {
+      "name": "Police Emergency",
+      "description": "Pakistan Police Emergency Helpline"
+    },
+    "3": {
+      "name": "Edhi Ambulance",
+      "description": "Edhi Foundation Emergency Ambulance Service"
+    },
+    "4": {
+      "name": "NDMA Emergency",
+      "description": "National Disaster Management Authority Emergency Line"
+    },
+    "5": {
+      "name": "PDMA",
+      "description": "Provincial Disaster Management Authority"
+    },
+    "6": {
+      "name": "Fire Brigade Karachi",
+      "description": "Karachi Metropolitan Corporation Fire Brigade"
+    },
+    "7": {
+      "name": "Fire Brigade Lahore",
+      "description": "Lahore Fire & Rescue Service"
+    },
+    "8": {
+      "name": "Fire Brigade Islamabad",
+      "description": "Capital Development Authority Fire Service"
+    },
+    "9": {
+      "name": "Chippa Ambulance",
+      "description": "Chippa Welfare Association Ambulance Service"
+    },
+    "10": {
+      "name": "Aman Ambulance",
+      "description": "Aman Health Care Ambulance Service"
+    },
+    "11": {
+      "name": "Red Crescent",
+      "description": "Pakistan Red Crescent Society Emergency"
+    },
+    "12": {
+      "name": "K-Electric Emergency",
+      "description": "K-Electric Power Emergency Hotline"
+    },
+    "13": {
+      "name": "LESCO Emergency",
+      "description": "Lahore Electric Supply Company Emergency"
+    },
+    "14": {
+      "name": "SSGC Emergency",
+      "description": "Sui Southern Gas Company Emergency"
+    },
+    "15": {
+      "name": "WASA Emergency",
+      "description": "Water & Sanitation Agency Emergency"
+    },
+    "16": {
+      "name": "PM Citizens Portal",
+      "description": "Prime Minister Citizens Portal Helpline"
+    },
+    "17": {
+      "name": "Women Helpline",
+      "description": "National Commission on Status of Women Helpline"
+    },
+    "18": {
+      "name": "Child Protection",
+      "description": "Madadgaar National Child Protection Helpline"
+    },
+    "19": {
+      "name": "Cyber Crime FIA",
+      "description": "FIA Cyber Crime Reporting Helpline"
+    }
+  },
+  "safetyScreen": {
+    "title": "Safety Guidelines",
+    "subtitle": "Essential information to stay safe during emergencies."
+  },
+  "guidelines": {
+    "1": {
+      "title": "Flood Safety Guidelines",
+      "description": "Precautions and emergency actions during floods.",
+      "file": "flood_en.pdf"
+    },
+    "2": {
+      "title": "Heatwave Safety Guidelines",
+      "description": "Tips to stay cool and safe in extreme heat."
+    },
+    "3": {
+      "title": "Thunderstorm Safety Guidelines",
+      "description": "What to do when storms and lightning hit."
+    },
+    "4": {
+      "title": "Earthquake Safety Guidelines",
+      "description": "Steps to protect yourself during earthquakes.",
+      "file": "earthquake.pdf"
+    },
+    "5": {
+      "title": "Winter Smog Safety Guidelines",
+      "description": "How to protect yourself from air pollution and smog.",
+      "file": "smog.pdf"
+    }
+  },
+  "close": "Close"
+}
